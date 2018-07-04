@@ -1,0 +1,28 @@
+{
+  "name": "parcel-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "test": "jest --watch",
+    "format": "prettier-standard 'src/**/*.js'"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.71.0",
+    "jest": "^22.4.3",
+    "parcel-bundler": "^1.9.1",
+    "prettier-standard": "^8.0.1",
+    "standard": "^11.0.1",
+    "tailwindcss": "^0.5.2"
+  }
+}
