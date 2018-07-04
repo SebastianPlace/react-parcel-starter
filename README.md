@@ -1,4 +1,4 @@
-# App name
+# React-parcel-starter
 
 ## Getting started
 
@@ -6,7 +6,7 @@ Install Dependencies:
 
 `yarn`
 
-Run the app and visit localhost:1234:
+Run the app and visit localhost:1234 :
 
 `yarn start`
 
@@ -26,4 +26,3 @@ Add the following to your user settings:
 "javascript.validate.enable": false,
 "editor.formatOnSave": true,
 ``` 
-
